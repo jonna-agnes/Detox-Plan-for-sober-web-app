@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "SoberApp",
+    "slug": "sober-app",
+    "platforms": ["ios", "android", "web"],
+    "entryPoint": "./app/tabs/index.tsx",
+    "assets": ["./assets"],
+    "version": "1.0.0",
+    "sdkVersion": "49.0.0",
+    "icon": "./assets/images/sober_icon.png",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true
+    }
+  }
+}
