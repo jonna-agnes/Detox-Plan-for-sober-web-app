@@ -1,51 +1,52 @@
-# Welcome to your Expo app 👋
+# Sober App using expo go 
+## Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The Sober App is designed to help individuals maintain sobriety by providing various features such as daily check-ins, motivational quotes, journaling, and tracking sober days. It also includes resources and emergency contacts for support.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Authentication**: Secure login and registration.
+- **Dashboard**: Overview of user's progress and activities.
+- **Daily Check-In**: Users can check in daily to track their mood and sobriety status.
+- **Daily Quote**: Provides daily motivational quotes to keep users inspired.
+- **Journal**: Allows users to maintain a personal journal.
+- **Sober Days Tracker**: Tracks the number of sober days.
+- **Sober Plan**: Users can create and manage their sobriety plan.
+- **Resources**: Provides helpful resources and articles.
+- **Emergency Contacts**: Users can save and access emergency contacts.
+- **Total Points**: Tracks points earned by users for maintaining sobriety and completing tasks.
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/sober-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd sober-app
+   ```
+3. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
+## Running the App
 
+1. Start the development server:
    ```bash
-    npx expo start
+   npm start
    ```
+2. Open the app in your preferred simulator or device.
 
-In the output, you'll find options to open the app in a
+## Deployment
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Build the app for production:
+   ```bash
+   npm run build
+   ```
+2. Deploy the build to your preferred hosting service.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## License
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# Detox-Plan-for-sober-web-app
+This project is licensed under the MIT License.
